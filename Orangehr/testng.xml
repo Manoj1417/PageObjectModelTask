@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Oragehrm-loginpage">
+    <classes>
+      <class name="Testcases.login_page"></class>
+    </classes>
+    </test>
+    
+    <test name="Orangehrm-Adminpage">
+    <classes>
+      <class name="Testcases.Admin_page"></class>
+    </classes>
+  </test>
+ 
+  <test name="Orangehrm-Add_user">
+    <classes>
+      <class name="Testcases.Add_user"></class>
+    </classes>
+  </test> 
+  
+    <test name="Orangehrm-logoutpage">
+    <classes>
+      <class name="Testcases.logoutpage"></class>
+    </classes>
+  </test> 
+  
+</suite> 

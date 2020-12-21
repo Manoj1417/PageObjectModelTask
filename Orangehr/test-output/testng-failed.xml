@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Orangehrm-logoutpage(failed)">
+    <classes>
+      <class name="Testcases.logoutpage">
+        <methods>
+          <include name="logout_page"/>
+          <include name="extent"/>
+          <include name="getResult"/>
+          <include name="screenshot"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.logoutpage -->
+    </classes>
+  </test> <!-- Orangehrm-logoutpage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
